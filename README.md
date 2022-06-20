@@ -17,6 +17,8 @@ Display portfolio with links to source and examples.
 Display contact information.
 
 ## Technologies
+HTML
+CSS
 Javascript
 Node.js
 React.js
