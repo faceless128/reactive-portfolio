@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactive-portfolio/static/css/main.926a71e3.css",
-    "main.js": "/reactive-portfolio/static/js/main.08b63f78.js",
+    "main.js": "/reactive-portfolio/static/js/main.acfe8793.js",
     "static/js/787.45916773.chunk.js": "/reactive-portfolio/static/js/787.45916773.chunk.js",
     "static/media/horiseon.png": "/reactive-portfolio/static/media/horiseon.ac5a7bce02ecaa8868c9.png",
     "static/media/screenshot.png": "/reactive-portfolio/static/media/screenshot.5ee1abb891428463ca4a.png",
@@ -23,11 +23,11 @@
     "static/media/employee-management.png": "/reactive-portfolio/static/media/employee-management.e1c5bea697bfef8d1ddb.png",
     "index.html": "/reactive-portfolio/index.html",
     "main.926a71e3.css.map": "/reactive-portfolio/static/css/main.926a71e3.css.map",
-    "main.08b63f78.js.map": "/reactive-portfolio/static/js/main.08b63f78.js.map",
+    "main.acfe8793.js.map": "/reactive-portfolio/static/js/main.acfe8793.js.map",
     "787.45916773.chunk.js.map": "/reactive-portfolio/static/js/787.45916773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.926a71e3.css",
-    "static/js/main.08b63f78.js"
+    "static/js/main.acfe8793.js"
   ]
 }
