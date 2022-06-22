@@ -116,7 +116,7 @@ h2 {
 .portfolio {
     display: flex;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     color: var(--second-color);
 }
 
@@ -178,6 +178,14 @@ h2 {
     min-height: 120px;
 }
 
+.big-project img:hover, .small-project img:hover {
+    opacity: 0.8;
+    border: 5px solid var(--third-color);
+}
+.big-project a:hover::after, .small-project a:hover::after {
+    background-color: var(--third-color);
+    color: var(--second-color);
+}
 .links {
     display: flex;
     padding: 18px 0;
