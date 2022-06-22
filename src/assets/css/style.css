@@ -1,0 +1,358 @@
+/* main color variables */
+:root {
+    --first-color: #c5c3c6;
+    --second-color: #1985a1;
+    --third-color: #4c5c68;
+}
+
+/* remove all margins and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--first-color);
+}
+
+/* style for body */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    padding: 18px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+.nav h1 {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 14px;
+    font-size: 36px;
+}
+
+/* style for links in nav */
+.nav span {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.nav span:hover {
+    color: var(--third-color);
+    text-decoration: underline;
+}
+
+/* style for hero */
+.hero {
+    background-image: url("../images/hero.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+/* style for h2 */
+h2 {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 14px;
+    font-size: 32px;
+    width: 200px;
+}
+
+/* style for about section */
+.about {
+    color: var(--third-color);
+    display: flex;
+    padding: 40px 0;
+}
+
+.about div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.about div:last-child {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h3 {
+    padding: 10px;
+}
+
+.about-text {
+    margin-right: 100px;
+}
+
+.faceless-subway {
+    margin-left: 120px;
+}
+
+.headshot img {
+    border: 5px solid var(--second-color);
+}
+
+/* style for portfolio section */
+.portfolio {
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--second-color);
+}
+
+.portfolio h2 {
+    margin-top: 100px;
+}
+
+.portfolio span {
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+/* style for links in portfolio */
+.portfolio a {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    color: var(--third-color);
+    font-weight: normal;
+}
+
+.portfolio-text {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* style for projects */
+.projects {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* style for project images */
+.big-project {
+    flex-basis: 90%;
+    padding: 20px;
+}
+
+.small-project {
+    flex-basis: 45%;
+    padding: 20px;
+}
+
+.big-project img {
+    border: 5px solid var(--second-color);
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 500px;
+    min-height: 250px;
+}
+.small-project img {
+    border: 5px solid var(--second-color);
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 240px;
+    min-height: 120px;
+}
+
+.links {
+    display: flex;
+    padding: 18px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.links ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.links ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+.links h3 {
+    color: var(--second-color);
+}
+
+/* style for links in nav */
+.links a {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--third-color);
+    text-decoration: underline;
+}
+
+/* style for contact section */
+.contact {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--second-color);
+}
+
+.contact h2 {
+    margin-top: 100px;
+}
+
+.contact span {
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+/* style for forms */
+button {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 1px;
+    color: var(--first-color);
+    background-color: var(--second-color);
+}
+
+form {
+    width: 40%;
+    padding-left: 10%;
+}
+  
+input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 3px solid var(--second-color);
+    border-radius: 3px;
+    margin: 3px 0;
+    transition: box-shadow 0.2s;
+    color: var(--second-color);
+}
+
+input:focus {
+    border: 3px solid var(--second-color);
+}
+
+textarea {
+    font-size: 1rem;
+	width: 600px;
+	height: 120px;
+	border: 3px solid var(--second-color);
+	padding: 5px;
+    color: var(--second-color);
+}
+
+button:hover {
+    opacity: .8;
+}
+  
+button[disabled] {
+    cursor: default;
+    opacity: .8;
+}
+
+.error-text {
+    color: var(--third-color);
+    transition: ease-in;
+}
+
+/* media query style changes for smaller screens */
+@media screen and (max-width: 980px) {
+    .about {
+        flex-wrap: wrap;
+    }
+    header nav ul {
+        justify-content: center;
+    }
+    .hero {
+        height: 200px;
+    }
+    .faceless-subway {
+        width: 200px;
+        height: 200px;
+    }
+    .about div:last-child {
+        padding: 20px;
+    }
+    .about-text {
+        margin-right: 20px;
+        margin-left: 20px;
+    }    
+    .portfolio {
+        flex-wrap: wrap;
+    }
+    .portfolio h2 {
+        margin-top: 30px;
+    }
+    .projects {
+        justify-content: center;
+        align-items: center;
+    }
+    .links {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        justify-content: space-evenly;
+    }
+    .hero {
+        height: 100px;
+    }
+    .faceless-subway {
+        width: 160px;
+        height: 160px;
+    }
+    .about div:last-child {
+        padding: 10px;
+    }
+    .about-text {
+        margin-right: 10px;
+        margin-left: 10px;
+    }    
+    .projects {
+        margin: 0;
+    }
+    .big-project img {
+        min-width: 240px;
+        min-height: 120px;
+    }
+    .small-project {
+        flex-basis: 90%;
+    }
+    .links ul {
+        justify-content: space-evenly;
+    }
+}
