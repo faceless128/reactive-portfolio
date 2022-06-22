@@ -295,12 +295,29 @@ button[disabled] {
     transition: ease-in;
 }
 
+/* style for resume section */
+.resume {
+    padding-top: 40px;
+    display: flex;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--second-color);
+}
+
+.resume-text {
+    margin: 40px;
+}
+
+.resume-text ul {
+    list-style: none;
+}
+
 /* media query style changes for smaller screens */
 @media screen and (max-width: 980px) {
     .about {
         flex-wrap: wrap;
     }
-    header nav ul {
+    header ul {
         justify-content: center;
     }
     .hero {
@@ -329,6 +346,11 @@ button[disabled] {
     }
     .links {
         flex-wrap: wrap;
+    }
+    .breaks {
+        display: block;
+        float: left;
+        margin-right: 0.4em;
     }
 }
 
