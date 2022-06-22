@@ -19,54 +19,44 @@ body {
     margin: 0;
 }
 
-/* style for header */
-header {
-    padding: 14px 0;
+.nav {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-/* style for header h1 */
-header h1 {
-    background-color: var(--second-color);
-    color: var(--first-color);
-    padding: 14px;
-    font-size: 36px;
-
-}
-
-/* style for nav */
-header nav {
-    padding: 18px;
+    padding: 18px 0;
     font-size: 28px;
     font-weight: bold;
 }
 
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+.nav h1 {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 14px;
+    font-size: 36px;
+}
+
 /* style for links in nav */
-header nav a {
+.nav a {
     color: var(--second-color);
     text-decoration: none;
 }
 
-header nav a:hover {
+.nav a:hover {
     color: var(--third-color);
     text-decoration: underline;
-}
-
-/* style for nav ul */
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }  
-
-/* style for nav list items */
-header nav ul li {
-    margin-left: 18px;
-    margin-right: 18px;
 }
 
 /* style for hero */
@@ -77,7 +67,7 @@ header nav ul li {
     background-position: 50%;
 }
 
-/* style for 2 */
+/* style for h2 */
 h2 {
     background-color: var(--second-color);
     color: var(--first-color);
@@ -122,15 +112,40 @@ h2 {
     border: 5px solid var(--second-color);
 }
 
-/* style for work section */
-.work {
+/* style for portfolio section */
+.portfolio {
     display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--second-color);
 }
 
-.work h2 {
-    margin-top: 300px;
+.portfolio h2 {
+    margin-top: 100px;
 }
 
+.portfolio span {
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+/* style for links in portfolio */
+.portfolio a {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.portfolio a:hover {
+    color: var(--third-color);
+    font-weight: normal;
+}
+
+.portfolio-text {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* style for projects */
 .projects {
     margin: 100px;
     display: flex;
@@ -149,7 +164,6 @@ h2 {
 }
 
 .big-project img {
-    opacity: 0.7;
     border: 5px solid var(--second-color);
     max-width: 100%;
     max-height: 100%;
@@ -157,7 +171,6 @@ h2 {
     min-height: 250px;
 }
 .small-project img {
-    opacity: 0.7;
     border: 5px solid var(--second-color);
     max-width: 100%;
     max-height: 100%;
@@ -165,105 +178,14 @@ h2 {
     min-height: 120px;
 }
 
-.big-project img:hover, .small-project img:hover {
-    opacity: 1;
-    border: 5px solid var(--third-color);
-}
-
-/* style for project labels */
-#run-buddy::after {
-    content: "Run Buddy 2.0";
-}
-
-#horiseon::after {
-    content: "Horiseon";
-}
-
-#password-generator::after {
-    content: "Password Generator";
-}
-
-#taskinator::after {
-    content: "Taskinator";
-}
-
-#code-quiz::after {
-    content: "Quiz Code";
-}
-
-#workday-scheduler::after {
-    content: "Work Day Scheduler";
-}
-
-#weather-dashboard::after {
-    content: "Weather Dashboard";
-}
-
-#shooting-star::after {
-    content: "Shooting Star";
-}
-
-#team-profile::after {
-    content: "Team Profile Gen";
-}
-
-#employee-management::after {
-    content: "Employee Management";
-}
-
-#tech-blog::after {
-    content: "Tech Blog";
-}
-
-#it-takes-a-city::after {
-    content: "It Takes A City";
-}
-
-#thoughtful::after {
-    content: "Thoughtful";
-}
-
-.big-project::after {
-    position: relative;
-    bottom: 80px;
-    left: 5px;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-    background-color: var(--second-color);
-    color: var(--first-color);
-    padding: 15px 10px;
-}
-
-.small-project::after {
-    position: relative;
-    bottom: 65px;
-    left: 5px;
-    font-weight: bold;
-    text-align: left;
-    font-size: 18px;
-    background-color: var(--second-color);
-    color: var(--first-color);
-    padding: 15px 10px;
-}
-
-.small-project:hover::after, .big-project:hover::after {
-    background-color: var(--third-color);
-    color: var(--second-color);
-}
-
-.placeholder::after {
-    content: "Placeholder";
-}
-
-.contact {
+.links {
     display: flex;
     padding: 18px 0;
     font-size: 28px;
     font-weight: bold;
 }
 
-.contact ul {
+.links ul {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -272,23 +194,23 @@ h2 {
     list-style: none;
 }
 
-.contact ul li {
+.links ul li {
     margin-left: 18px;
     margin-right: 18px;
 }
 
 
-.contact h3 {
+.links h3 {
     color: var(--second-color);
 }
 
 /* style for links in nav */
-.contact a {
+.links a {
     color: var(--second-color);
     text-decoration: none;
 }
 
-.contact a:hover {
+.links a:hover {
     color: var(--third-color);
     text-decoration: underline;
 }
@@ -315,17 +237,17 @@ h2 {
         margin-right: 20px;
         margin-left: 20px;
     }    
-    .work {
+    .portfolio {
         flex-wrap: wrap;
     }
-    .work h2 {
+    .portfolio h2 {
         margin-top: 30px;
     }
     .projects {
         justify-content: center;
         align-items: center;
     }
-    .contact {
+    .links {
         flex-wrap: wrap;
     }
 }
@@ -358,11 +280,7 @@ h2 {
     .small-project {
         flex-basis: 90%;
     }
-    #run-buddy::after {
-        bottom: 65px;
-        font-size: 18px;
-    }
-    .contact ul {
+    .links ul {
         justify-content: space-evenly;
     }
 }

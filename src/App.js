@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Links from './components/Links';
 import './assets/css/style.css';
 
@@ -11,7 +12,7 @@ function App() {
         <Nav></Nav>
       </header>
       <main>
-        <About></About>
+        <Portfolio></Portfolio>
       </main>
       <footer>
         <Links></Links>
