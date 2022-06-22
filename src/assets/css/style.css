@@ -1,0 +1,368 @@
+/* main color variables */
+:root {
+    --first-color: #c5c3c6;
+    --second-color: #1985a1;
+    --third-color: #4c5c68;
+}
+
+/* remove all margins and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--first-color);
+}
+
+/* style for body */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+/* style for header */
+header {
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* style for header h1 */
+header h1 {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 14px;
+    font-size: 36px;
+
+}
+
+/* style for nav */
+header nav {
+    padding: 18px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* style for links in nav */
+header nav a {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: var(--third-color);
+    text-decoration: underline;
+}
+
+/* style for nav ul */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }  
+
+/* style for nav list items */
+header nav ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+/* style for hero */
+.hero {
+    background-image: url("../images/hero.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+/* style for 2 */
+h2 {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 14px;
+    font-size: 32px;
+    width: 200px;
+}
+
+/* style for about section */
+.about {
+    color: var(--third-color);
+    display: flex;
+    padding: 40px 0;
+}
+
+.about div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.about div:last-child {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h3 {
+    padding: 10px;
+}
+
+.about-text {
+    margin-right: 100px;
+}
+
+.faceless-subway {
+    margin-left: 120px;
+}
+
+.headshot img {
+    border: 5px solid var(--second-color);
+}
+
+/* style for work section */
+.work {
+    display: flex;
+}
+
+.work h2 {
+    margin-top: 300px;
+}
+
+.projects {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* style for project images */
+.big-project {
+    flex-basis: 90%;
+    padding: 20px;
+}
+
+.small-project {
+    flex-basis: 45%;
+    padding: 20px;
+}
+
+.big-project img {
+    opacity: 0.7;
+    border: 5px solid var(--second-color);
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 500px;
+    min-height: 250px;
+}
+.small-project img {
+    opacity: 0.7;
+    border: 5px solid var(--second-color);
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 240px;
+    min-height: 120px;
+}
+
+.big-project img:hover, .small-project img:hover {
+    opacity: 1;
+    border: 5px solid var(--third-color);
+}
+
+/* style for project labels */
+#run-buddy::after {
+    content: "Run Buddy 2.0";
+}
+
+#horiseon::after {
+    content: "Horiseon";
+}
+
+#password-generator::after {
+    content: "Password Generator";
+}
+
+#taskinator::after {
+    content: "Taskinator";
+}
+
+#code-quiz::after {
+    content: "Quiz Code";
+}
+
+#workday-scheduler::after {
+    content: "Work Day Scheduler";
+}
+
+#weather-dashboard::after {
+    content: "Weather Dashboard";
+}
+
+#shooting-star::after {
+    content: "Shooting Star";
+}
+
+#team-profile::after {
+    content: "Team Profile Gen";
+}
+
+#employee-management::after {
+    content: "Employee Management";
+}
+
+#tech-blog::after {
+    content: "Tech Blog";
+}
+
+#it-takes-a-city::after {
+    content: "It Takes A City";
+}
+
+#thoughtful::after {
+    content: "Thoughtful";
+}
+
+.big-project::after {
+    position: relative;
+    bottom: 80px;
+    left: 5px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 15px 10px;
+}
+
+.small-project::after {
+    position: relative;
+    bottom: 65px;
+    left: 5px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    padding: 15px 10px;
+}
+
+.small-project:hover::after, .big-project:hover::after {
+    background-color: var(--third-color);
+    color: var(--second-color);
+}
+
+.placeholder::after {
+    content: "Placeholder";
+}
+
+.contact {
+    display: flex;
+    padding: 18px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.contact ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+.contact h3 {
+    color: var(--second-color);
+}
+
+/* style for links in nav */
+.contact a {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: var(--third-color);
+    text-decoration: underline;
+}
+
+/* media query style changes for smaller screens */
+@media screen and (max-width: 980px) {
+    .about {
+        flex-wrap: wrap;
+    }
+    header nav ul {
+        justify-content: center;
+    }
+    .hero {
+        height: 200px;
+    }
+    .faceless-subway {
+        width: 200px;
+        height: 200px;
+    }
+    .about div:last-child {
+        padding: 20px;
+    }
+    .about-text {
+        margin-right: 20px;
+        margin-left: 20px;
+    }    
+    .work {
+        flex-wrap: wrap;
+    }
+    .work h2 {
+        margin-top: 30px;
+    }
+    .projects {
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        justify-content: space-evenly;
+    }
+    .hero {
+        height: 100px;
+    }
+    .faceless-subway {
+        width: 160px;
+        height: 160px;
+    }
+    .about div:last-child {
+        padding: 10px;
+    }
+    .about-text {
+        margin-right: 10px;
+        margin-left: 10px;
+    }    
+    .projects {
+        margin: 0;
+    }
+    .big-project img {
+        min-width: 240px;
+        min-height: 120px;
+    }
+    .small-project {
+        flex-basis: 90%;
+    }
+    #run-buddy::after {
+        bottom: 65px;
+        font-size: 18px;
+    }
+    .contact ul {
+        justify-content: space-evenly;
+    }
+}
