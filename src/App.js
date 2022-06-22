@@ -8,17 +8,19 @@ import './assets/css/style.css';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
   return (
     <div className="App">
       <header className="App-header">
-        <Nav contactSelected={contactSelected} setContactSelected={setContactSelected} ></Nav>
+        <Nav portfolioSelected={portfolioSelected} setPortfolioSelected={setPortfolioSelected} contactSelected={contactSelected} setContactSelected={setContactSelected} ></Nav>
       </header>
       <main>
-        {!contactSelected ? (
-          <About></About>
-        ) : (
-          <Contact></Contact>
-        )}
+        {
+        !contactSelected && !portfolioSelected ? ( <About></About> ) :
+        contactSelected ? ( <Contact></Contact> ) : 
+        portfolioSelected ? ( <Portfolio></Portfolio> ) :
+        <></>
+      }
       </main>
       <footer>
         <Links></Links>

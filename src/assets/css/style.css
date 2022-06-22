@@ -49,12 +49,12 @@ body {
 }
 
 /* style for links in nav */
-.nav a {
+.nav span {
     color: var(--second-color);
     text-decoration: none;
 }
 
-.nav a:hover {
+.nav span:hover {
     color: var(--third-color);
     text-decoration: underline;
 }

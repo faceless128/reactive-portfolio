@@ -1,19 +1,35 @@
 import React from 'react';
 import resumePdf from '../../assets/resume/resume.pdf';
 
-function Nav() {
+function Nav(props) {
+    const {
+        portfolioSelected,
+        setPortfolioSelected,
+        contactSelected,
+        setContactSelected
+      } = props;
+
     return(
         <header className="nav" id="nav">
             <h1>I&nbsp;Made&nbsp;This</h1>
              <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
+                <li className={`${ !contactSelected && !portfolioSelected && 'navActive'}`}>
+                    <span className="about-me" onClick={() => {
+                        setPortfolioSelected(false);
+                        setContactSelected(false);
+                    }}>About Me</span>
                 </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
+                <li className={`${portfolioSelected && 'navActive'}`}>
+                    <span className="show-portfolio" onClick={() => {
+                        setPortfolioSelected(true);
+                        setContactSelected(false);
+                    }}>Portfolio</span>
                 </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
+                <li className={`${contactSelected && 'navActive'}`}>
+                    <span className="contact-me" onClick={() => {
+                        setPortfolioSelected(false);
+                        setContactSelected(true);
+                    }}>Contact Me</span>
                 </li>
                 <li>
                     <a href={resumePdf} target="_blank" rel="noreferrer">Resume</a>
