@@ -1,11 +1,10 @@
 import React from 'react';
-import coverImage from "../../assets/images/hero.jpg"
 import profileImage from "../../assets/images/faceless-subway.jpg"
 
 function About() {
   return (
     <>
-        <section className='my-5' style={{ backgroundImage: url({coverImage}) }}>
+        <section className='hero'>
         </section>
         <section className="about" id="about-me">
             <div>
