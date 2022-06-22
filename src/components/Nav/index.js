@@ -1,9 +1,10 @@
 import React from 'react';
+import resumePdf from '../../assets/resume/resume.pdf';
 
 function Nav() {
     return(
         <header className="nav" id="nav">
-            <h1>I Made This</h1>
+            <h1>I&nbsp;Made&nbsp;This</h1>
              <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -15,7 +16,7 @@ function Nav() {
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href={resumePdf} target="_blank" rel="noreferrer">Resume</a>
                 </li>
             </ul>
     </header>
