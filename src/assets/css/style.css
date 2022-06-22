@@ -314,8 +314,14 @@ button[disabled] {
 
 /* media query style changes for smaller screens */
 @media screen and (max-width: 980px) {
+    .nav {
+        flex-wrap: wrap;
+    }
     .about {
         flex-wrap: wrap;
+    }
+    .about h2 {
+        margin-bottom: 20px;
     }
     header ul {
         justify-content: center;
@@ -326,6 +332,9 @@ button[disabled] {
     .faceless-subway {
         width: 200px;
         height: 200px;
+        flex-wrap: wrap;
+        margin: 20px;
+        align-self: center;
     }
     .about div:last-child {
         padding: 20px;
@@ -346,11 +355,6 @@ button[disabled] {
     }
     .links {
         flex-wrap: wrap;
-    }
-    .breaks {
-        display: block;
-        float: left;
-        margin-right: 0.4em;
     }
 }
 
