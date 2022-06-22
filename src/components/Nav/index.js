@@ -12,9 +12,7 @@ function Nav(props) {
 
     return(
         <header className="nav" id="nav">
-            <span className="breaks">
             <h1>I&nbsp;Made&nbsp;This</h1>
-            </span>
              <ul>
                 <li className={`${ !contactSelected && !portfolioSelected && !resumeSelected && 'navActive'}`}>
                     <span className="about-me" onClick={() => {
