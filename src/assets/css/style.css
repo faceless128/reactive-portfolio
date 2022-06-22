@@ -314,6 +314,9 @@ button[disabled] {
 
 /* media query style changes for smaller screens */
 @media screen and (max-width: 980px) {
+    .nav {
+        flex-wrap: wrap;
+    }
     .about {
         flex-wrap: wrap;
     }
