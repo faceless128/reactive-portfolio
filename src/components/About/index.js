@@ -11,7 +11,7 @@ function About() {
                 <h2>About Me</h2>
             </div>
             <div className="headshot">
-                <img src={profileImage} alt="a hooded person on a subway train, their face is not visible" width="320" height="320" class="faceless-subway" />
+                <img src={profileImage} alt="a hooded person on a subway train, their face is not visible" width="320" height="320" className="faceless-subway" />
             </div>
             <div className="about-text">
                 <h3>Kaijam J</h3>
