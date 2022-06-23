@@ -313,6 +313,12 @@ button[disabled] {
 }
 
 /* media query style changes for smaller screens */
+@media screen and (max-width: 1400px) {
+    .contact, .resume {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 980px) {
     .nav {
         flex-wrap: wrap;
@@ -353,6 +359,9 @@ button[disabled] {
         justify-content: center;
         align-items: center;
     }
+    textarea {
+        width: 400px;
+    }    
     .links {
         flex-wrap: wrap;
     }
@@ -389,4 +398,7 @@ button[disabled] {
     .links ul {
         justify-content: space-evenly;
     }
+    textarea {
+        width: 200px;
+    }    
 }
