@@ -349,13 +349,13 @@ button[disabled] {
         margin-right: 20px;
         margin-left: 20px;
     }    
-    .portfolio {
+    .portfolio, .resume {
         flex-wrap: wrap;
     }
     .portfolio h2 {
         margin-top: 30px;
     }
-    .projects {
+    .projects, .resune-text {
         justify-content: center;
         align-items: center;
     }
@@ -385,7 +385,7 @@ button[disabled] {
         margin-right: 10px;
         margin-left: 10px;
     }    
-    .projects {
+    .projects, .resume-text {
         margin: 0;
     }
     .big-project img {
