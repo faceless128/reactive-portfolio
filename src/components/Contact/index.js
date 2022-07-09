@@ -29,6 +29,7 @@ function Contact() {
     e.preventDefault();
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
+      window.location = `mailto:faceless128@gmail.com?subject=Hello%20Kaijam&body=${e.target.message.value}%0D${e.target.name.value}%0D${e.target.email.value}`;
     }
     console.log(formState);
   }
