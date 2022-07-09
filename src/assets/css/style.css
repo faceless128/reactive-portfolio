@@ -98,10 +98,14 @@ h2 {
 
 .about h3 {
   padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .about-text {
   margin-right: 100px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .faceless-subway {
@@ -170,6 +174,7 @@ h2 {
   min-width: 500px;
   min-height: 250px;
 }
+
 .small-project img {
   border: 5px solid var(--second-color);
   max-width: 100%;
@@ -182,10 +187,19 @@ h2 {
   opacity: 0.8;
   border: 5px solid var(--third-color);
 }
+
 .big-project a:hover::after, .small-project a:hover::after {
   background-color: var(--third-color);
   color: var(--second-color);
 }
+/* style for project text */
+.project-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--third-color);
+}
+
+/* style for links */
 .links {
   display: flex;
   padding: 18px 0;
@@ -206,7 +220,6 @@ h2 {
   margin-left: 18px;
   margin-right: 18px;
 }
-
 
 .links h3 {
   color: var(--second-color);

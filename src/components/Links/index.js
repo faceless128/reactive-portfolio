@@ -9,13 +9,13 @@ function Links() {
           <a href="https://github.com/faceless128/">GitHub</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/kaijam-jeffers-405b28b5/">LinkedIn</a>
+          <a href="mailto:faceless128@gmail.com">faceless128@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/kaijam-jeffers/">LinkedIn</a>
         </li>
         <li>
           <a href="https://twitter.com/faceless128/">Twitter</a>
-        </li>
-        <li>
-          <a href="https://instagram.com/faceless128/">Instagram</a>
         </li>
       </ul>
     </section>

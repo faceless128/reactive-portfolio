@@ -14,8 +14,10 @@ function About() {
           <img src={profileImage} alt="a hooded person on a subway train, their face is not visible" width="320" height="320" className="faceless-subway" />
         </div>
         <div className="about-text">
-          <h3>Kaijam J</h3>
-          <p>After a few decades of various non-coding jobs and hobbies, I have recently returned to coding. Somehow it's simultaneously easier and harder than before. The experience so far has been extremely rewarding and very challenging.</p>
+          <h3>Kaijam Jeffers</h3>
+          <p>
+            Hi, I'm Kaijam (the 'j' is silent) and I am a Full Stack Web Developer with a Certificate from Michigan State University. When I am not coding, I enjoy Music, Sci-Fi, Video Games, Walking and NBA Basketball.
+          </p>
         </div>
       </section>
     </>
