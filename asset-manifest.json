@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.f076b8ca.css",
-    "main.js": "/static/js/main.20adfe41.js",
+    "main.js": "/static/js/main.7508da2d.js",
     "static/js/787.45916773.chunk.js": "/static/js/787.45916773.chunk.js",
     "static/media/horiseon.png": "/static/media/horiseon.ac5a7bce02ecaa8868c9.png",
     "static/media/screenshot.png": "/static/media/screenshot.5ee1abb891428463ca4a.png",
     "static/media/run-buddy.png": "/static/media/run-buddy.5d8d86b49262be8fc03d.png",
     "static/media/hero.jpg": "/static/media/hero.5dc5e86c58aefffca268.jpg",
+    "static/media/portfolio-pro.png": "/static/media/portfolio-pro.89c16b813928ea082e09.png",
+    "static/media/reactive-portfolio.png": "/static/media/reactive-portfolio.89c16b813928ea082e09.png",
     "static/media/it-takes-a-city_mobile.png": "/static/media/it-takes-a-city_mobile.54eb17137ab669c7fd11.png",
     "static/media/shooting-star.png": "/static/media/shooting-star.234155995f597b68194f.png",
     "static/media/thoughtful.png": "/static/media/thoughtful.739576aaee4baa6a6cca.png",
@@ -14,6 +16,7 @@
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.36d3dd4cad8c8a252d52.png",
     "static/media/team-profile.png": "/static/media/team-profile.f1b1b290f9d32255f3cb.png",
     "static/media/faceless-subway.jpg": "/static/media/faceless-subway.e6f821f41a96e5aa1fc3.jpg",
+    "static/media/it-takes-a-city-too.png": "/static/media/it-takes-a-city-too.bf242e10b700b101370a.png",
     "static/media/code-quiz.png": "/static/media/code-quiz.1e613200afdc08a84efe.png",
     "static/media/workday-scheduler.png": "/static/media/workday-scheduler.c1ac43039ca44b6e2929.png",
     "static/media/resume.pdf": "/static/media/resume.2e6ebbd8a0ef139aecff.pdf",
@@ -23,11 +26,11 @@
     "static/media/employee-management.png": "/static/media/employee-management.e1c5bea697bfef8d1ddb.png",
     "index.html": "/index.html",
     "main.f076b8ca.css.map": "/static/css/main.f076b8ca.css.map",
-    "main.20adfe41.js.map": "/static/js/main.20adfe41.js.map",
+    "main.7508da2d.js.map": "/static/js/main.7508da2d.js.map",
     "787.45916773.chunk.js.map": "/static/js/787.45916773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f076b8ca.css",
-    "static/js/main.20adfe41.js"
+    "static/js/main.7508da2d.js"
   ]
 }
