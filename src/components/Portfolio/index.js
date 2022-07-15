@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 function Nav() {
   const [portfolios] = useState([
     {
-      name: "It Takes A City",
-      deployment: "https://it-takes-a-city.herokuapp.com/",
-      github: "https://github.com/cwarmbrunn/it-takes-a-city/",
-      imgSrc: "it-takes-a-city",
-      description: "A way to help people in need find resources like food and shelter. A Team Project utilizing Javascript, MongoDB, EJS, Taliwind and Auth0. I floated between Front End and Back End working with JS, Tailwind, Mongo interactions and Heroku deployment."
+      name: "It Takes A City Too",
+      deployment: "https://it-takes-a-city-too.herokuapp.com/",
+      github: "https://github.com/cwarmbrunn/it-takes-a-city-too/",
+      imgSrc: "it-takes-a-city-too",
+      description: "A way to help people in need find resources like food and shelter. A Team Project utilizing Javascript, React, GraphQL, MongoDB, Express, Bootstrap and JSONWebToken. I floated between Front End and Back End working with JS, Bootstrap, GraphQL and MongoDB interactions and Heroku deployment."
     },
     {
       name: "Tech Blog",
@@ -15,6 +15,20 @@ function Nav() {
       github: "https://www.github.com/faceless128/tech-blog/",
       imgSrc: "tech-blog",
       description: "A blogging system that features user management, post management, comments and voting. Built using Javascript, Node, MySQL, Sequelize and Express."
+    },
+    {
+      name: "I Made This",
+      deployment: "https://faceless128.github.io/portfolio-pro/",
+      github: "https://www.github.com/faceless128/portfolio-pro/",
+      imgSrc: "portfolio-pro",
+      description: "A portfolio page to display user info, project info, contact info, skills and a resume. Built using HTML and CSS."
+    },
+    {
+      name: "It Takes A City",
+      deployment: "https://it-takes-a-city.herokuapp.com/",
+      github: "https://github.com/cwarmbrunn/it-takes-a-city/",
+      imgSrc: "it-takes-a-city",
+      description: "A way to help people in need find resources like food and shelter. A Team Project utilizing Javascript, MongoDB, EJS, Taliwind and Auth0. I floated between Front End and Back End working with JS, Tailwind, Mongo interactions and Heroku deployment."
     },
     {
       name: "NBA Statcat",
