@@ -16,7 +16,7 @@ function About() {
         <div className="about-text">
           <h3>Kaijam Jeffers</h3>
           <p>
-            Hi, I'm Kaijam (the 'j' is silent) and I am a Full Stack Web Developer with a Certificate from Michigan State University. When I am not coding, I enjoy Music, Sci-Fi, Video Games, Walking and NBA Basketball.
+            Hi, I'm Kaijam (the 'j' is silent) and I am a naturally curious person that is always learning and currently deeply engrossed in building a larger knowledge base in software engineering. I am a Full Stack Web Developer with a Certificate from Michigan State University. When I am not coding, I enjoy Music, Sci-Fi, Video Games, Walking and NBA Basketball.
           </p>
         </div>
       </section>
