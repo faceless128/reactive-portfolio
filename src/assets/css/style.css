@@ -1,9 +1,10 @@
 /* main color variables */
 :root {
-  --first-color: #c5c3c6;
-  --second-color: #1985a1;
-  --third-color: #4c5c68;
+  --first-color: #dfdce0;
+  --second-color: #195fa1;
+  --third-color: #2b3842;
 }
+/*  --first-color: #c5c3c6; --second-color: #1985a1; --third-color: #4c5c68; */
 
 /* remove all margins and padding */
 * {
