@@ -27,11 +27,12 @@ function About() {
             <li>MySQL</li>
             <li>Sequelize</li>
             <li>Auth0</li>
+            <li>React</li>
+            <li>NoSQL</li>
             <li>MongoDB</li>
             <li>Mongoose</li>
             <li>PWA</li>
             <li>JSX</li>
-            <li>React</li>
             </ul>
         </div>
     </section>
