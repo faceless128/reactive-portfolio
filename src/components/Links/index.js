@@ -15,7 +15,7 @@ function Links() {
           <a href="https://www.linkedin.com/in/kaijam-jeffers/">LinkedIn</a>
         </li>
         <li>
-          <a href="https://twitter.com/faceless128/">Twitter</a>
+          <a href="https://www.threads.net/@faceless128">Threads</a>
         </li>
       </ul>
     </section>
