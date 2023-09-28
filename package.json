@@ -14,11 +14,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "copy": "shx cp CNAME build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && cpy CNAME ./dist",
+    "predeploy": "npm run build && npm run copy",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
