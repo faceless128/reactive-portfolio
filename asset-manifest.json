@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.bfc3d3f5.css",
-    "main.js": "/static/js/main.5319bce5.js",
+    "main.js": "/static/js/main.a7e7dd3a.js",
     "static/js/787.45916773.chunk.js": "/static/js/787.45916773.chunk.js",
     "static/media/horiseon.png": "/static/media/horiseon.ac5a7bce02ecaa8868c9.png",
     "static/media/screenshot.png": "/static/media/screenshot.5ee1abb891428463ca4a.png",
     "static/media/run-buddy.png": "/static/media/run-buddy.5d8d86b49262be8fc03d.png",
-    "static/media/portfolio-pro.png": "/static/media/portfolio-pro.89c16b813928ea082e09.png",
-    "static/media/reactive-portfolio.png": "/static/media/reactive-portfolio.89c16b813928ea082e09.png",
+    "static/media/portfolio-pro.png": "/static/media/portfolio-pro.a80d9f44ea893bd869ed.png",
+    "static/media/portfolio-pro-v1.png": "/static/media/portfolio-pro-v1.89c16b813928ea082e09.png",
+    "static/media/reactive-portfolio-v1.png": "/static/media/reactive-portfolio-v1.89c16b813928ea082e09.png",
+    "static/media/reactive-portfolio.png": "/static/media/reactive-portfolio.60e5e95b4c6e93799add.png",
     "static/media/hero.jpg": "/static/media/hero.f7a1c705a48a48dcfb61.jpg",
     "static/media/it-takes-a-city_mobile.png": "/static/media/it-takes-a-city_mobile.54eb17137ab669c7fd11.png",
     "static/media/shooting-star.png": "/static/media/shooting-star.234155995f597b68194f.png",
@@ -26,11 +28,11 @@
     "static/media/employee-management.png": "/static/media/employee-management.e1c5bea697bfef8d1ddb.png",
     "index.html": "/index.html",
     "main.bfc3d3f5.css.map": "/static/css/main.bfc3d3f5.css.map",
-    "main.5319bce5.js.map": "/static/js/main.5319bce5.js.map",
+    "main.a7e7dd3a.js.map": "/static/js/main.a7e7dd3a.js.map",
     "787.45916773.chunk.js.map": "/static/js/787.45916773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfc3d3f5.css",
-    "static/js/main.5319bce5.js"
+    "static/js/main.a7e7dd3a.js"
   ]
 }
