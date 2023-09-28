@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "copy": "shx cp CNAME ./dist",
+    "copy": "shx cp CNAME build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "shx": "^0.3.4"
+    "gh-pages": "^4.0.0"
   }
 }
